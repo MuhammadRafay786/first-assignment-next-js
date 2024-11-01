@@ -1,4 +1,6 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -19,7 +21,7 @@ body {
 }
 nav {
   background-color: aqua;
-  margin:0px;
+  margin:1px;
   text-align: center;
   text-size-adjust: 20px;
 }
